@@ -7,13 +7,13 @@ function setup(){
     world.gravity.y=5
     // code to create a new square sprite
     square=new Sprite()
-    square.velocity.y=10
+    square.velocity.y=5
 }
 
 function draw(){
     background("grey");
     if (mouse.presses()){
-        square.vel.y=-3
+        square.vel.y=-5
     }
     // code to check if mouse is pressed i.e. mouse.presses()
         // if mouse is pressed, the square sprite "flies" up
